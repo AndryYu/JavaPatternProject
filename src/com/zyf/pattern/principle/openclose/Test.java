@@ -6,7 +6,7 @@ public class Test {
         JavaDiscountCourse javaCourse = (JavaDiscountCourse) iCourse;
         System.out.println("课程ID："+javaCourse.getId()
                 +",名称："+javaCourse.getName()
-                +",折后价格："+javaCourse.getPrice()
-                +",原来价格："+javaCourse.getOriginPrice());
+                +",折后价格："+javaCourse.getDiscountPrice()
+                +",原来价格："+javaCourse.getPrice());
     }
 }
