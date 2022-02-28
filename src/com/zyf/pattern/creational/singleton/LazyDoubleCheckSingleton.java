@@ -1,7 +1,8 @@
 package com.zyf.pattern.creational.singleton;
 
 public class LazyDoubleCheckSingleton {
-    private static  LazyDoubleCheckSingleton singleton = null;
+    //volatile 内存共享
+    private volatile static  LazyDoubleCheckSingleton singleton = null;
 
     private LazyDoubleCheckSingleton (){
 
