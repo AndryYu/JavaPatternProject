@@ -1,4 +1,4 @@
-package com.zyf.pattern;
+package com.zyf.pattern.structural;
 
 public class Main {
 
